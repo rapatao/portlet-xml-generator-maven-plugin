@@ -35,7 +35,7 @@ To use the plugin, you need to annotate you portlet class.
 ```java
 ...
 @PortletDefinition(
-        name = "cardif-liferay-example-home",
+        name = "home-portlet",
         portletClass = HomePortlet.class,
         info = @PortletInfo(title = "Home Portlet"))
 @LiferayPortlet(groupName = "Plugin Configuration Example")
