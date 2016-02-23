@@ -6,14 +6,12 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Created by 962880 on 22/02/2016.
+ * Created by 962880 on 23/02/2016.
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-public @interface LiferayPortlet {
+public @interface LiferayTrigger {
 
-    String groupName();
-
-    LiferayScheduleEntry[] scheduleEntries() default {};
+    LiferayCron[] crons() default {};
 
 }
