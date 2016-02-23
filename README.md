@@ -34,6 +34,10 @@ Configure the _plugin_:
 To use the plugin, you need to annotate you portlet class. 
 ```java
 ...
+import com.rapatao.projects.portletxmlgenerator.annotations.PortletDefinition;
+import com.rapatao.projects.portletxmlgenerator.annotations.PortletInfo;
+import com.rapatao.projects.portletxmlgenerator.annotations.support.LiferayPortlet;
+...
 @PortletDefinition(
         name = "home-portlet",
         portletClass = HomePortlet.class,
