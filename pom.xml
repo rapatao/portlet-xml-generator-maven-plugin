@@ -12,11 +12,26 @@
     <packaging>pom</packaging>
 
     <name>Portlet XML Generator Maven Plugin</name>
+    <description>Maven plugin to create configuration XML file for portlet applications.</description>
+    <url>https://github.com/rapatao/portlet-xml-generator-maven-plugin</url>
+
+    <scm>
+        <url>https://github.com/rapatao/portlet-xml-generator-maven-plugin.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <email>rapatao@rapatao.com</email>
+            <name>Luiz Henrique Rapatão</name>
+            <url>http://www.rapatao.com</url>
+            <id>rapatao</id>
+        </developer>
+    </developers>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <guava.version>19.0</guava.version>
-        <reflections.version>0.9.10</reflections.version>
+        <reflections.version>0.9.9-RC1</reflections.version>
         <portlet-api.version>2.0</portlet-api.version>
         <lombo.version>1.16.6</lombo.version>
         <maven.version>3.3.9</maven.version>

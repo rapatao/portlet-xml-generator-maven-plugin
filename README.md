@@ -1,6 +1,10 @@
 # portlet-xml-generator-maven-plugin
 
-Maven plugin to create configuration XML file for portlet applications.
+Maven plugin to create configuration XML file for portlet projects.
+
+This plugin will create all configuration files based on annotations found in portlet classes.
+
+The initial support is default portlet.xml and Liferay 6.2.0 portlet.
 
 ### Usage
 
